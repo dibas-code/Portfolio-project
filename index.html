@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dibas-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+
+</style>
+
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="bars"><i class="fa fa-bars"></i></label>
+            <label class="logo">Dibas Portfolio</label>
+
+            <ul>
+                <i class="fa fa-close"></i>
+                <li><a class="nav-a" href="/">Home</a></li>
+                <li><a class="nav-a" href="/">About</a></li>
+                <li><a class="nav-a" href="/">Services</a></li>
+                <li><a class="nav-a" href="/">Projects</a></li>
+                <li><a class="nav-a" href="/">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi,My name is <span class="purple">Dibas</span>
+                <div>and i am a Skilled</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a class="link" href="">Download Resume</a></button>
+                    <button class="btn"><a class="link" href="https://github.com/dibas-code">Visit Github</a></button>
+                </div>
+
+            </div>
+            <div class="rightSection">
+                <img class="img" src="developer.png" alt="developer">
+            </div>
+        </section>
+    </main>
+
+    <hr>
+    <section class=" secondSection">
+        <span class="text-grey">what i learned</span>
+        <h1>My Skills</h1>
+        <div class="box">
+            <div class="vertical"></div>
+            <div class="vertical-text">
+                <ul>
+                    <h2>Frontend Technologies</h2>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+            <div class="vertical"></div>
+            <div class="vertical-text">
+                <ul>
+                    <h2>Programming Languages</h2>
+                    <li>Javascript</li>
+                    <li>C++</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div class="vertical"></div>
+            <div class="vertical-text">
+                <ul>
+                    <h2>Libraries</h2>
+                    <li>React js</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-First"></div>
+            <h3>Dibas developer portfolio</h3>
+            <div class="footer-Second">
+                <ul>
+                    <li>GitHub</li>
+                    <li>Facebook</li>
+                </ul>
+            </div>
+            <div class="footer-Third"></div>
+            <div class="footer-Fourth"></div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.dibasportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web desiner', 'web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>
