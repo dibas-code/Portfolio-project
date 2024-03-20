@@ -39,7 +39,7 @@ nav ul li {
     margin: 0 24px;
 }
 
-.fa-close {
+#cross {
     display: none;
 }
 
@@ -265,6 +265,10 @@ footer .footer-rights {
         flex-direction: column;
         justify-content: center;
         margin: 20px 0px;
+    }
+
+    #cross {
+        display: block;
     }
 
     .firstSection>div {
