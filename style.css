@@ -291,7 +291,7 @@ footer .footer-rights {
 
     .secondSection .vertical {
         margin: 0 0 0 10px;
-        height: 16px;
+        height: 5px;
     }
 
     .secondSection .vertical-text h2 {
@@ -300,6 +300,10 @@ footer .footer-rights {
 
     .secondSection .box {
         width: 60vw;
+    }
+
+    .secondSection ul {
+        margin-left: 20px;
     }
 
     .footer {
